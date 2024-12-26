@@ -15,4 +15,4 @@ The type of data used to implement this process would be what is generally found
 
 Techniques:
 
-I have just started looking at the problem with regards to what other people have done, so with regards to what techniques to use, that is still unclear.  I would think something along the lines of doing some form of Natural Language Processing incombination with techniques used in a Generative AI algorithm.  TO start I would be looking at the innter workings of Retrieval Augmented Generation (RAG) and Generative Adversarial Networks (GAN).
+I have just started looking at the problem with regards to what other people have done, so with regards to what techniques to use, that is still unclear.  I would think something along the lines of doing some form of Natural Language Processing incombination with techniques used in a Generative AI algorithm.  To start I would be looking at the innter workings of Retrieval Augmented Generation (RAG) and Generative Adversarial Networks (GAN).
