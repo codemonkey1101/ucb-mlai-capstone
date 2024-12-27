@@ -28,7 +28,12 @@ Topics to investigate:
 - Langchain for Workflow Design
 - GenAI Application Development
 - Stable Diffusion
-- Generative AI Governance
+- Generative AI Governance.  Key points about generative AI governance:
+  - Focus on responsible use: It aims to mitigate potential harms associated with generative AI, such as the creation of misinformation, biased content, or deepfakes.
+  - Ethical considerations: Governance frameworks address ethical issues like fairness, accountability, and privacy related to generative AI applications.
+  - Data management: Proper data governance practices are crucial to ensure the quality and integrity of the data used to train generative AI models.
+  - Transparency and explainability: Governance should promote transparency in how generative AI systems function, allowing users to understand how outputs are generated.
+  - Monitoring and oversight: Continuous monitoring of generative AI systems is necessary to detect and address potential issues as they arise. 
 
 Tools an Technologies to investigate:
 - LangChain
