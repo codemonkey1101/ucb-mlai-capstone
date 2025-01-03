@@ -35,7 +35,7 @@ Topics to investigate:
   - Transparency and explainability: Governance should promote transparency in how generative AI systems function, allowing users to understand how outputs are generated.
   - Monitoring and oversight: Continuous monitoring of generative AI systems is necessary to detect and address potential issues as they arise. 
 
-Tools an Technologies to investigate:
+Tools and Technologies to investigate:
 - LangChain
 - Streamlit
 - Gradio
