@@ -44,7 +44,7 @@ Tools and Technologies to investigate:
 - Dall-E2
 - Bard
 
-Per Savio saldanha.  Some things to look at regarding this problem:
+Per Savio Saldanha.  Some things to look at regarding this problem:
 ### 1. AI-Driven Software Design & Architecture
 - Current Challenges:
   - A key area of improvement is ensuring AI tools can assist more deeply in the design phase—shaping software architecture that is scalable and meets the use cases. For instance, tools like Copilot can help with writing boilerplate code, but improving their capacity to understand software design patterns, architecture decisions, and applying them in iterative steps is needed.
