@@ -100,3 +100,20 @@ Per Savio Saldanha.  Some things to look at regarding this problem:
 - Resources:
   - End-to-End Machine Learning Systems: Paper on how AI tools can cover the entire ML development lifecycle (some principles can apply to software engineering).
   - AI-Driven Full DevOps Lifecycle: How AI is shaping end-to-end management in software development.
+
+Vector databases:
+pine cone: https://www.pinecone.io/
+weaviate: https://weaviate.io/
+chroma: https://www.trychroma.com/  (good for beginners)
+postgres with plugin for vector database.
+pgvector: https://github.com/pgvector/pgvector
+
+Retrieval step:
+embedding using transformers (not)
+
+
+Transformers:
+Python encoding vectorizing: https://sbert.net/docs/sentence_transformer/pretrained_models.html
+Google: BERD
+
+Basic RAG workflows: [rag-workflow-per-savio-saldanha.png](ucb-mlai-capstone/edit/main/images/rag-workflow-per-savio-saldanha.png)
