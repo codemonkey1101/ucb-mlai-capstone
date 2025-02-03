@@ -102,18 +102,18 @@ Per Savio Saldanha.  Some things to look at regarding this problem:
   - AI-Driven Full DevOps Lifecycle: How AI is shaping end-to-end management in software development.
 
 Vector databases:
-pine cone: https://www.pinecone.io/
-weaviate: https://weaviate.io/
-chroma: https://www.trychroma.com/  (good for beginners)
-postgres with plugin for vector database.
-pgvector: https://github.com/pgvector/pgvector
+- pine cone: https://www.pinecone.io/
+- weaviate: https://weaviate.io/
+- chroma: https://www.trychroma.com/  (good for beginners)
+- postgres with plugin for vector database.
+- pgvector: https://github.com/pgvector/pgvector
 
 Retrieval step:
-embedding using transformers (not)
+- embedding using transformers (not)
 
 
 Transformers:
-Python encoding vectorizing: https://sbert.net/docs/sentence_transformer/pretrained_models.html
-Google: BERD
+- Python encoding vectorizing: https://sbert.net/docs/sentence_transformer/pretrained_models.html
+- Google: BARD which is now Gemini
 
 Basic RAG workflows: [rag-workflow-per-savio-saldanha.png](ucb-mlai-capstone/edit/main/images/rag-workflow-per-savio-saldanha.png)
