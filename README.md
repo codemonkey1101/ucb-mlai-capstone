@@ -116,4 +116,4 @@ Transformers:
 - Python encoding vectorizing: https://sbert.net/docs/sentence_transformer/pretrained_models.html
 - Google: BARD which is now Gemini
 
-Basic RAG workflows: [rag-workflow-per-savio-saldanha.png](ucb-mlai-capstone/edit/main/images/rag-workflow-per-savio-saldanha.png)
+Basic RAG workflows: !["rag-workflow-per-savio-saldanha.png"](<images/rag-workflow-per-savio-saldanha.png>)
