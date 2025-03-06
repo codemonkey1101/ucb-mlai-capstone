@@ -7,13 +7,13 @@ Looking to improve upon the AI tools used as software development aids that are 
 
  
 
-Data:
+## Data:
 
 The type of data used to implement this process would be what is generally found in Large Language Models (LLMs) like GPT-4 and LLaMA.
 
  
 
-Techniques:
+## Techniques:
 
 I have just started looking at the problem with regards to what other people have done, so with regards to what techniques to use, that is still unclear.  I would think something along the lines of doing some form of Natural Language Processing incombination with techniques used in a Generative AI algorithm.  To start I would be looking at the innter workings of Retrieval Augmented Generation (RAG) and Generative Adversarial Networks (GAN).
 
@@ -35,7 +35,7 @@ Topics to investigate:
   - Transparency and explainability: Governance should promote transparency in how generative AI systems function, allowing users to understand how outputs are generated.
   - Monitoring and oversight: Continuous monitoring of generative AI systems is necessary to detect and address potential issues as they arise. 
 
-Tools and Technologies to investigate:
+## Tools and Technologies to investigate:
 - LangChain
 - Streamlit
 - Gradio
@@ -44,7 +44,27 @@ Tools and Technologies to investigate:
 - Dall-E2
 - Bard
 
-Per Savio Saldanha.  Some things to look at regarding this problem:
+
+### Vector databases:
+- pine cone: https://www.pinecone.io/
+- weaviate: https://weaviate.io/
+- chroma: https://www.trychroma.com/  (good for beginners)
+- postgres with plugin for vector database.
+- pgvector: https://github.com/pgvector/pgvector
+
+
+### Retrieval step:
+- embedding using transformers (not)
+
+#### Transformers:
+- Python encoding vectorizing: https://sbert.net/docs/sentence_transformer/pretrained_models.html
+- Google: BARD which is now Gemini
+
+Basic RAG workflows: !["rag-workflow-per-savio-saldanha.png"](<images/rag-workflow-per-savio-saldanha.png>)
+
+
+## Application Definition:
+
 ### 1. AI-Driven Software Design & Architecture
 - Current Challenges:
   - A key area of improvement is ensuring AI tools can assist more deeply in the design phase—shaping software architecture that is scalable and meets the use cases. For instance, tools like Copilot can help with writing boilerplate code, but improving their capacity to understand software design patterns, architecture decisions, and applying them in iterative steps is needed.
@@ -101,19 +121,3 @@ Per Savio Saldanha.  Some things to look at regarding this problem:
   - End-to-End Machine Learning Systems: Paper on how AI tools can cover the entire ML development lifecycle (some principles can apply to software engineering).
   - AI-Driven Full DevOps Lifecycle: How AI is shaping end-to-end management in software development.
 
-Vector databases:
-- pine cone: https://www.pinecone.io/
-- weaviate: https://weaviate.io/
-- chroma: https://www.trychroma.com/  (good for beginners)
-- postgres with plugin for vector database.
-- pgvector: https://github.com/pgvector/pgvector
-
-Retrieval step:
-- embedding using transformers (not)
-
-
-Transformers:
-- Python encoding vectorizing: https://sbert.net/docs/sentence_transformer/pretrained_models.html
-- Google: BARD which is now Gemini
-
-Basic RAG workflows: !["rag-workflow-per-savio-saldanha.png"](<images/rag-workflow-per-savio-saldanha.png>)
