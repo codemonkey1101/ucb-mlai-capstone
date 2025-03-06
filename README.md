@@ -1,7 +1,7 @@
 # ucb-mlai-capstone
 UC Berkeley ML-AI Capstone project
 
-Problem:
+## Problem:
 
 Looking to improve upon the AI tools used as software development aids that are currently available in the industry such as Copilot and ChatGPT.  The areas of improvement would revolve around being able to go from use cases to a more iterative process that minimizes the amount of software written by a software engineer.  The software in question would be the product of what is normally used in a implementing and deploying a software application as well as the work required to unit and regression test said application.
 
