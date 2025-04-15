@@ -23,7 +23,7 @@ Topics to investigate:
 - Generative Adversarial Networks (GANs)
 - Transformers
 - Retrieval Augmented Generation (RAG)
-- LLM Architecture, Fine-Tuning and Benchmarking
+- Large Language Model (LLM) Architecture, Fine-Tuning and Benchmarking
 - Attention Mechanism
 - Langchain for Workflow Design
 - GenAI Application Development
