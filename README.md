@@ -1,7 +1,7 @@
 # ucb-mlai-capstone
 UC Berkeley ML-AI Capstone project
 
-Problem:
+## Problem:
 
 Looking to answer the question of what is the least amount of money required for an NFL team to make it to the playoffs.  This gets broken down into the following questions:
 - what offensive statistics have the most effect on a teams ability to score points (i.e. passing yardage per pass attempt, running yardage per run attempt, interceptions, etc).  Same question for defensive statistics.
@@ -20,5 +20,5 @@ Data:
 - Data set containing list of NFL teams that made it to the playoffs between 2017 and 2022.
  
 
-Techniques:
+## Techniques:
 
