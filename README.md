@@ -11,13 +11,11 @@ Looking to answer the question of what is the least amount of money required for
  
 NOTE: The cost of special-teams is merged into offense and defense.
 
- 
+## Data:
 
-Data:
-
-- NFL team statistics from https://data.scorenetwork.org/football/nfl-team-statistics.html : nfl-team-statistics.csv 
-- Scraped data from the website: https://overthecap.com/positional-spending#y2017 thru https://overthecap.com/positional-spending#y2022
-- Data set containing list of NFL teams that made it to the playoffs between 2017 and 2022.
+- NFL team statistics from https://data.scorenetwork.org/football/nfl-team-statistics.html : nfl-team-statistics.csv (circa. 1999 thru 2022)
+- Scraped data from the website: https://overthecap.com/positional-spending#y2013 thru https://overthecap.com/positional-spending#y2022
+- NFL_team_playoff_perc_win_data.csv : Kaggle data set containing list of NFL teams that made it to the playoffs between 2013 and 2021 (https://www.kaggle.com/datasets/shanyachaubey/nfl20102021offdefplayoffteamstats?resource=download).  NOTE: Still need to get data for 2022.
  
 
 ## Techniques:
