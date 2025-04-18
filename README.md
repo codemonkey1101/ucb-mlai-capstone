@@ -15,8 +15,9 @@ NOTE: The cost of special-teams is merged into offense and defense.
 
 - NFL team statistics from https://data.scorenetwork.org/football/nfl-team-statistics.html : nfl-team-statistics.csv (circa. 1999 thru 2022)
 - Scraped data from the website: https://overthecap.com/positional-spending#y2013 thru https://overthecap.com/positional-spending#y2022
-- NFL_team_playoff_perc_win_data.csv : Kaggle data set containing list of NFL teams that made it to the playoffs between 2013 and 2021 (https://www.kaggle.com/datasets/shanyachaubey/nfl20102021offdefplayoffteamstats?resource=download).  NOTE: Still need to get data for 2022.
+- Kaggle data set containing list of NFL teams that made it to the playoffs between 2013 and 2022
+  - NFL_team_playoff_perc_win_data.csv (https://www.kaggle.com/datasets/shanyachaubey/nfl20102021offdefplayoffteamstats?resource=download).
+  - Still need to get data for 2022.
  
-
 ## Techniques:
 
