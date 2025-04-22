@@ -13,11 +13,25 @@ NOTE: The cost of special-teams is merged into offense and defense.
 
 ## Data:
 
-- NFL team statistics from https://data.scorenetwork.org/football/nfl-team-statistics.html : nfl-team-statistics.csv (circa. 1999 thru 2022)
-- Scraped data from the website: https://overthecap.com/positional-spending#y2013 thru https://overthecap.com/positional-spending#y2022
+- NFL team statistics from https://data.scorenetwork.org/football/nfl-team-statistics.html : nfl-team-statistics.csv (circa. 1999 thru 2022).  This data defines game related statistics per year and team such as points scored, points allowed, total rushing yards, etc.
+- Scraped data from the website: https://overthecap.com/positional-spending#y2013 thru https://overthecap.com/positional-spending#y2022.  This data shows how much money each team spent per team, player position and year.
 - Kaggle data set containing list of NFL teams that made it to the playoffs between 2013 and 2022
   - Data from 2013 thru 2021: NFL_team_playoff_perc_win_data.csv (https://www.kaggle.com/datasets/shanyachaubey/nfl20102021offdefplayoffteamstats?resource=download).
-  - Still need to get data for 2022.
+  - Teams that made the playoffs in 2022:
+    - Philadelphia Eagles
+    - San Francisco 49ers
+    - Minnesota Vikings
+    - Tampa Bay Buccaneers
+    - Dallas Cowboys
+    - New York Giants
+    - Seattle Seahawks
+    - Cincinnati Bengals
+    - Jacksonville Jaguars
+    - Los Angeles Chargers
+    - Baltimore Ravens
+    - Buffalo Bills
+    - Miami Dolphins
+    - Kansas City Chiefs. 
  
 ## Techniques:
 
