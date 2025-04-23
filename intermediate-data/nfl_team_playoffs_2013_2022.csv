@@ -1,0 +1,321 @@
+,MadePlayoffs,Year,Team
+0,1.0,2022,Seattle Seahawks
+1,1.0,2022,San Francisco 49ers
+2,0.0,2022,Arizona Cardinals
+3,0.0,2022,Los Angeles Rams
+4,0.0,2022,Carolina Panthers
+5,0.0,2022,Atlanta Falcons
+6,0.0,2022,New Orleans Saints
+7,1.0,2022,Tampa Bay Buccaneers
+8,0.0,2022,Detroit Lions
+9,0.0,2022,Chicago Bears
+10,1.0,2022,Minnesota Vikings
+11,0.0,2022,Green Bay Packers
+12,1.0,2022,New York Giants
+13,0.0,2022,Washington Commanders
+14,1.0,2022,Philadelphia Eagles
+15,1.0,2022,Dallas Cowboys
+16,0.0,2022,Denver Broncos
+17,1.0,2022,Los Angeles Chargers
+18,0.0,2022,Las Vegas Raiders
+19,1.0,2022,Kansas City Chiefs
+20,1.0,2022,Jacksonville Jaguars
+21,0.0,2022,Houston Texans
+22,0.0,2022,Indianapolis Colts
+23,0.0,2022,Tennessee Titans
+24,1.0,2022,Baltimore Ravens
+25,0.0,2022,Cleveland Browns
+26,0.0,2022,Pittsburgh Steelers
+27,1.0,2022,Cincinnati Bengals
+28,0.0,2022,New York Jets
+29,1.0,2022,Miami Dolphins
+30,0.0,2022,New England Patriots
+31,1.0,2022,Buffalo Bills
+32,1.0,2013,New England Patriots
+33,0.0,2013,New York Jets
+34,0.0,2013,Miami Dolphins
+35,0.0,2013,Buffalo Bills
+36,1.0,2013,Cincinnati Bengals
+37,0.0,2013,Pittsburgh Steelers
+38,0.0,2013,Baltimore Ravens
+39,0.0,2013,Cleveland Browns
+40,1.0,2013,Indianapolis Colts
+41,0.0,2013,Tennessee Titans
+42,0.0,2013,Jacksonville Jaguars
+43,0.0,2013,Houston Texans
+44,1.0,2013,Denver Broncos
+45,1.0,2013,Kansas City Chiefs
+46,1.0,2013,Los Angeles Chargers
+47,0.0,2013,Las Vegas Raiders
+48,1.0,2013,Philadelphia Eagles
+49,0.0,2013,Dallas Cowboys
+50,0.0,2013,New York Giants
+51,0.0,2013,Washington Commanders
+52,1.0,2013,Green Bay Packers
+53,0.0,2013,Chicago Bears
+54,0.0,2013,Detroit Lions
+55,0.0,2013,Minnesota Vikings
+56,1.0,2013,Carolina Panthers
+57,1.0,2013,New Orleans Saints
+58,0.0,2013,Atlanta Falcons
+59,0.0,2013,Tampa Bay Buccaneers
+60,1.0,2013,Seattle Seahawks
+61,1.0,2013,San Francisco 49ers
+62,0.0,2013,Arizona Cardinals
+63,0.0,2013,Los Angeles Rams
+64,1.0,2014,New England Patriots
+65,0.0,2014,Buffalo Bills
+66,0.0,2014,Miami Dolphins
+67,0.0,2014,New York Jets
+68,1.0,2014,Pittsburgh Steelers
+69,1.0,2014,Cincinnati Bengals
+70,1.0,2014,Baltimore Ravens
+71,0.0,2014,Cleveland Browns
+72,1.0,2014,Indianapolis Colts
+73,0.0,2014,Houston Texans
+74,0.0,2014,Jacksonville Jaguars
+75,0.0,2014,Tennessee Titans
+76,1.0,2014,Denver Broncos
+77,0.0,2014,Kansas City Chiefs
+78,0.0,2014,Los Angeles Chargers
+79,0.0,2014,Las Vegas Raiders
+80,1.0,2014,Dallas Cowboys
+81,0.0,2014,Philadelphia Eagles
+82,0.0,2014,New York Giants
+83,0.0,2014,Washington Commanders
+84,1.0,2014,Green Bay Packers
+85,1.0,2014,Detroit Lions
+86,0.0,2014,Minnesota Vikings
+87,0.0,2014,Chicago Bears
+88,1.0,2014,Carolina Panthers
+89,0.0,2014,New Orleans Saints
+90,0.0,2014,Atlanta Falcons
+91,0.0,2014,Tampa Bay Buccaneers
+92,1.0,2014,Seattle Seahawks
+93,1.0,2014,Arizona Cardinals
+94,0.0,2014,San Francisco 49ers
+95,0.0,2014,Los Angeles Rams
+96,1.0,2015,New England Patriots
+97,0.0,2015,New York Jets
+98,0.0,2015,Buffalo Bills
+99,0.0,2015,Miami Dolphins
+100,1.0,2015,Cincinnati Bengals
+101,1.0,2015,Pittsburgh Steelers
+102,0.0,2015,Baltimore Ravens
+103,0.0,2015,Cleveland Browns
+104,1.0,2015,Houston Texans
+105,0.0,2015,Indianapolis Colts
+106,0.0,2015,Jacksonville Jaguars
+107,0.0,2015,Tennessee Titans
+108,1.0,2015,Denver Broncos
+109,1.0,2015,Kansas City Chiefs
+110,0.0,2015,Las Vegas Raiders
+111,0.0,2015,Los Angeles Chargers
+112,1.0,2015,Washington Commanders
+113,0.0,2015,Philadelphia Eagles
+114,0.0,2015,New York Giants
+115,0.0,2015,Dallas Cowboys
+116,1.0,2015,Minnesota Vikings
+117,1.0,2015,Green Bay Packers
+118,0.0,2015,Detroit Lions
+119,0.0,2015,Chicago Bears
+120,1.0,2015,Carolina Panthers
+121,0.0,2015,Atlanta Falcons
+122,0.0,2015,New Orleans Saints
+123,0.0,2015,Tampa Bay Buccaneers
+124,1.0,2015,Arizona Cardinals
+125,1.0,2015,Seattle Seahawks
+126,0.0,2015,Los Angeles Rams
+127,0.0,2015,San Francisco 49ers
+128,1.0,2016,New England Patriots
+129,1.0,2016,Miami Dolphins
+130,0.0,2016,Buffalo Bills
+131,0.0,2016,New York Jets
+132,1.0,2016,Pittsburgh Steelers
+133,0.0,2016,Baltimore Ravens
+134,0.0,2016,Cincinnati Bengals
+135,0.0,2016,Cleveland Browns
+136,1.0,2016,Houston Texans
+137,0.0,2016,Tennessee Titans
+138,0.0,2016,Indianapolis Colts
+139,0.0,2016,Jacksonville Jaguars
+140,1.0,2016,Kansas City Chiefs
+141,1.0,2016,Las Vegas Raiders
+142,0.0,2016,Denver Broncos
+143,0.0,2016,Los Angeles Chargers
+144,1.0,2016,Dallas Cowboys
+145,1.0,2016,New York Giants
+146,0.0,2016,Washington Commanders
+147,0.0,2016,Philadelphia Eagles
+148,1.0,2016,Green Bay Packers
+149,1.0,2016,Detroit Lions
+150,0.0,2016,Minnesota Vikings
+151,0.0,2016,Chicago Bears
+152,1.0,2016,Atlanta Falcons
+153,0.0,2016,Tampa Bay Buccaneers
+154,0.0,2016,New Orleans Saints
+155,0.0,2016,Carolina Panthers
+156,1.0,2016,Seattle Seahawks
+157,0.0,2016,Arizona Cardinals
+158,0.0,2016,Los Angeles Rams
+159,0.0,2016,San Francisco 49ers
+160,1.0,2017,New England Patriots
+161,1.0,2017,Buffalo Bills
+162,0.0,2017,Miami Dolphins
+163,0.0,2017,New York Jets
+164,1.0,2017,Pittsburgh Steelers
+165,0.0,2017,Baltimore Ravens
+166,0.0,2017,Cincinnati Bengals
+167,0.0,2017,Cleveland Browns
+168,1.0,2017,Jacksonville Jaguars
+169,1.0,2017,Tennessee Titans
+170,0.0,2017,Indianapolis Colts
+171,0.0,2017,Houston Texans
+172,1.0,2017,Kansas City Chiefs
+173,0.0,2017,Los Angeles Chargers
+174,0.0,2017,Las Vegas Raiders
+175,0.0,2017,Denver Broncos
+176,1.0,2017,Philadelphia Eagles
+177,0.0,2017,Dallas Cowboys
+178,0.0,2017,Washington Commanders
+179,0.0,2017,New York Giants
+180,1.0,2017,Minnesota Vikings
+181,0.0,2017,Detroit Lions
+182,0.0,2017,Green Bay Packers
+183,0.0,2017,Chicago Bears
+184,1.0,2017,New Orleans Saints
+185,1.0,2017,Carolina Panthers
+186,1.0,2017,Atlanta Falcons
+187,0.0,2017,Tampa Bay Buccaneers
+188,1.0,2017,Los Angeles Rams
+189,0.0,2017,Seattle Seahawks
+190,0.0,2017,Arizona Cardinals
+191,0.0,2017,San Francisco 49ers
+192,1.0,2018,New England Patriots
+193,0.0,2018,Miami Dolphins
+194,0.0,2018,Buffalo Bills
+195,0.0,2018,New York Jets
+196,1.0,2018,Baltimore Ravens
+197,0.0,2018,Pittsburgh Steelers
+198,0.0,2018,Cleveland Browns
+199,0.0,2018,Cincinnati Bengals
+200,1.0,2018,Houston Texans
+201,1.0,2018,Indianapolis Colts
+202,0.0,2018,Tennessee Titans
+203,0.0,2018,Jacksonville Jaguars
+204,1.0,2018,Kansas City Chiefs
+205,1.0,2018,Los Angeles Chargers
+206,0.0,2018,Denver Broncos
+207,0.0,2018,Las Vegas Raiders
+208,1.0,2018,Dallas Cowboys
+209,1.0,2018,Philadelphia Eagles
+210,0.0,2018,Washington Commanders
+211,0.0,2018,New York Giants
+212,1.0,2018,Chicago Bears
+213,0.0,2018,Minnesota Vikings
+214,0.0,2018,Green Bay Packers
+215,0.0,2018,Detroit Lions
+216,1.0,2018,New Orleans Saints
+217,0.0,2018,Atlanta Falcons
+218,0.0,2018,Carolina Panthers
+219,0.0,2018,Tampa Bay Buccaneers
+220,1.0,2018,Los Angeles Rams
+221,1.0,2018,Seattle Seahawks
+222,0.0,2018,San Francisco 49ers
+223,0.0,2018,Arizona Cardinals
+224,1.0,2019,New England Patriots
+225,1.0,2019,Buffalo Bills
+226,0.0,2019,New York Jets
+227,0.0,2019,Miami Dolphins
+228,1.0,2019,Baltimore Ravens
+229,0.0,2019,Pittsburgh Steelers
+230,0.0,2019,Cleveland Browns
+231,0.0,2019,Cincinnati Bengals
+232,1.0,2019,Houston Texans
+233,1.0,2019,Tennessee Titans
+234,0.0,2019,Indianapolis Colts
+235,0.0,2019,Jacksonville Jaguars
+236,1.0,2019,Kansas City Chiefs
+237,0.0,2019,Denver Broncos
+238,0.0,2019,Las Vegas Raiders
+239,0.0,2019,Los Angeles Chargers
+240,1.0,2019,Philadelphia Eagles
+241,0.0,2019,Dallas Cowboys
+242,0.0,2019,New York Giants
+243,0.0,2019,Washington Commanders
+244,1.0,2019,Green Bay Packers
+245,1.0,2019,Minnesota Vikings
+246,0.0,2019,Chicago Bears
+247,0.0,2019,Detroit Lions
+248,1.0,2019,New Orleans Saints
+249,0.0,2019,Atlanta Falcons
+250,0.0,2019,Tampa Bay Buccaneers
+251,0.0,2019,Carolina Panthers
+252,1.0,2019,San Francisco 49ers
+253,1.0,2019,Seattle Seahawks
+254,0.0,2019,Los Angeles Rams
+255,0.0,2019,Arizona Cardinals
+256,1.0,2020,Buffalo Bills
+257,0.0,2020,Miami Dolphins
+258,0.0,2020,New England Patriots
+259,0.0,2020,New York Jets
+260,1.0,2020,Pittsburgh Steelers
+261,1.0,2020,Baltimore Ravens
+262,1.0,2020,Cleveland Browns
+263,0.0,2020,Cincinnati Bengals
+264,1.0,2020,Tennessee Titans
+265,1.0,2020,Indianapolis Colts
+266,0.0,2020,Houston Texans
+267,0.0,2020,Jacksonville Jaguars
+268,1.0,2020,Kansas City Chiefs
+269,0.0,2020,Las Vegas Raiders
+270,0.0,2020,Los Angeles Chargers
+271,0.0,2020,Denver Broncos
+272,1.0,2020,Washington Commanders
+273,0.0,2020,New York Giants
+274,0.0,2020,Dallas Cowboys
+275,0.0,2020,Philadelphia Eagles
+276,1.0,2020,Green Bay Packers
+277,1.0,2020,Chicago Bears
+278,0.0,2020,Minnesota Vikings
+279,0.0,2020,Detroit Lions
+280,1.0,2020,New Orleans Saints
+281,1.0,2020,Tampa Bay Buccaneers
+282,0.0,2020,Carolina Panthers
+283,0.0,2020,Atlanta Falcons
+284,1.0,2020,Seattle Seahawks
+285,1.0,2020,Los Angeles Rams
+286,0.0,2020,Arizona Cardinals
+287,0.0,2020,San Francisco 49ers
+288,1.0,2021,Buffalo Bills
+289,1.0,2021,New England Patriots
+290,0.0,2021,Miami Dolphins
+291,0.0,2021,New York Jets
+292,1.0,2021,Cincinnati Bengals
+293,1.0,2021,Pittsburgh Steelers
+294,0.0,2021,Cleveland Browns
+295,0.0,2021,Baltimore Ravens
+296,1.0,2021,Tennessee Titans
+297,0.0,2021,Indianapolis Colts
+298,0.0,2021,Houston Texans
+299,0.0,2021,Jacksonville Jaguars
+300,1.0,2021,Kansas City Chiefs
+301,1.0,2021,Las Vegas Raiders
+302,0.0,2021,Los Angeles Chargers
+303,0.0,2021,Denver Broncos
+304,1.0,2021,Dallas Cowboys
+305,1.0,2021,Philadelphia Eagles
+306,0.0,2021,Washington Commanders
+307,0.0,2021,New York Giants
+308,1.0,2021,Green Bay Packers
+309,0.0,2021,Minnesota Vikings
+310,0.0,2021,Chicago Bears
+311,0.0,2021,Detroit Lions
+312,1.0,2021,Tampa Bay Buccaneers
+313,0.0,2021,New Orleans Saints
+314,0.0,2021,Atlanta Falcons
+315,0.0,2021,Carolina Panthers
+316,1.0,2021,Los Angeles Rams
+317,1.0,2021,Arizona Cardinals
+318,1.0,2021,San Francisco 49ers
+319,0.0,2021,Seattle Seahawks
