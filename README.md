@@ -35,3 +35,12 @@ NOTE: The cost of special-teams is merged into offense and defense.
  
 ## Techniques:
 
+### Feature Evaluation:
+- Correlation Matrix (using Heatmap): The method parameter specifies the type of correlation to calculate, and it can be one of the following:
+  - 'pearson' (default): Standard correlation coefficient, measures linear relationship
+  - 'kendall': Kendall Tau correlation coefficient, non-parametric measure, suitable for non-normal data or ordinal data
+  - 'spearman': Spearman rank correlation, non-parametric measure, assesses monotonic relationships
+  - callable: User-defined function to calculate correlation.
+- Scikit-Learn Permutation Feature Importance
+- 
+
