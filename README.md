@@ -45,7 +45,7 @@ NOTE: The cost of special-teams is merged into offense and defense.
 - 
 
 #### Target classes (categorical)
-MadePlayoffs - target classifier that defines whether a team made it to the playoffs in the season for that 'Year'
+MadePlayoffs - target classifier that defines whether a team made it to the playoffs in the season for that 'Year' (derived from NFL_team_playoff_perc_win_data.csv)
 wins - number of wins during a regular season per team.
 losses - number losses during a regular season per team.
 ties - number of ties during a regular season per team
@@ -57,7 +57,7 @@ score_differential - (points scored - points allowed)
 Year - the year the season was played.
 Team - name and city of NFL football team
 
-##### Cost per teams per position in dollars ($)
+##### Cost per team, year and position in dollars ($)
 QB_COST - amount of money salaried for quarterbacks
 RB_COST - amount of money salaried for runningbacks
 WR_COST - amount of money salaried for wide receivers
@@ -71,7 +71,7 @@ S_COST - amount of money salaried for safeties (free and strong)
 CB_COST - amount of money salaried for cornerbacks
 Defense_COST - amount of money salaried for all players defensive including special teams
 
-##### Offensive Statistics
+##### Offensive Statistics per team and year
 offense_completion_percentage - Passing completion percentage for offense
 offense_total_yards_gained_pass - Total number of yards gained on offense per play by play type pass
 offense_total_yards_gained_run - Total number of yards gained on offense per play by play type run
@@ -97,7 +97,7 @@ offense_ave_wpa_run - Average win probability added by offense per play by play 
 offense_success_rate_pass - Proportion of plays with positive expected points added on offenseby play type pass
 offense_success_rate_run - Proportion of plays with positive expected points added on offenseby play type run
 
-##### Defensive Statistics
+##### Defensive Statistics per team and year
 defense_completion_percentage - Passing completion percentage against by defense
 defense_total_yards_gained_pass - Total number of yards allowed by defense per play by play type pass
 defense_total_yards_gained_run - Total number of yards allowed by defense per play by play type run
@@ -131,8 +131,9 @@ score_differential - (points scored - points allowed)
 ### Approach
 - determin best features for predicting points scored
 - determin best features for predicting points allowed
+- associate previous results with cost per position
 - identify strong teams per division by evaluating EPA and WPA to predict "wins" and "points scored"/"allowed"
-- see if there is a correlation with division strength and wins
-- identify correlations between with wins.
+- see if there is a correlation with division strength and wins where division strength is measured by how many teams in that division have winning records where the tie breaker is playoff apearances
+- identify correlations between points score and allowed with wins.
   - using EPA and WPA as a weighted coefficient with other features
   - using points scored/allowed as a weighted coefficient with other features
