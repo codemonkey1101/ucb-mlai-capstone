@@ -57,7 +57,7 @@ score_differential - (points scored - points allowed)
 Year - the year the season was played.
 Team - name and city of NFL football team
 
-##### Cost per team, year and position in dollars ($)
+##### Cost per team, per year and per position in dollars ($)
 QB_COST - amount of money salaried for quarterbacks
 RB_COST - amount of money salaried for runningbacks
 WR_COST - amount of money salaried for wide receivers
@@ -69,7 +69,7 @@ EDGE_COST - amount of money salaried for edge rushers
 LB_COST - amount of money salaried for linebackers
 S_COST - amount of money salaried for safeties (free and strong)
 CB_COST - amount of money salaried for cornerbacks
-Defense_COST - amount of money salaried for all players defensive including special teams
+Defense_COST - amount of money salaried for all players on defense including special teams
 
 ##### Offensive Statistics per team and year
 offense_completion_percentage - Passing completion percentage for offense
@@ -94,8 +94,8 @@ offense_total_wpa_pass - Total win probability added by offense by play type pas
 offense_total_wpa_run - Total win probability added by offense by play type run
 offense_ave_wpa_pass - Average win probability added by offense per play by play type pass
 offense_ave_wpa_run - Average win probability added by offense per play by play type run
-offense_success_rate_pass - Proportion of plays with positive expected points added on offenseby play type pass
-offense_success_rate_run - Proportion of plays with positive expected points added on offenseby play type run
+offense_success_rate_pass - Proportion of plays with positive expected points added on offense by play type pass
+offense_success_rate_run - Proportion of plays with positive expected points added on offense by play type run
 
 ##### Defensive Statistics per team and year
 defense_completion_percentage - Passing completion percentage against by defense
@@ -122,11 +122,8 @@ defense_ave_wpa_pass - Average win probability allowed by defense per play by pl
 defense_ave_wpa_run - Average win probability allowed by defense per play by play type run
 defense_success_rate_pass - Proportion of plays with positive expected points allowed by defense by play type pass
 defense_success_rate_run - Proportion of plays with positive expected points allowed by defense by play type run
-points_scored - Total number of points scored by the team
-points_allowed - Total number of points allowed by the team
-score_differential - (points scored - points allowed)
 
-- NOTE:  The EPA variables are advanced NFL statistics, conveying how much value a team is adding over the average team in a given situation. It’s on a points scale instead of the typically used yards, because not all yards are created equal in American football (10 yard gain on 3rd and 15 is much less valuable than a 2 yard gain on 4th and 1). For offensive stats the higher the EPA the better, but for defensive stats the lower (more negative) the EPA the better. The WPA variables are similar except they are measuring play value in terms of win probability.
+- NOTE:  The EPA variables are advanced NFL statistics, conveying how much value a team is adding over the average team in a given situation. It’s on a points scale instead of the typically used yards scale, because not all yards are created equal in American football (10 yard gain on 3rd and 15 is much less valuable than a 2 yard gain on 4th and 1). For offensive stats the higher the EPA the better, but for defensive stats the lower (more negative) the EPA the better. The WPA variables are similar except they are measuring play value in terms of win probability.
 
 ### Approach
 - determin best features for predicting points scored
