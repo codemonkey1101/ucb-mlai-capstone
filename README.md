@@ -137,4 +137,4 @@ defense_success_rate_run - Proportion of plays with positive expected points all
 
 
 NOTES:
-Date: 5/7/25 : left off at scaling X_TRAIN before doing feature selection using SelectFromModel...make sure to use RMSE scorer during model.fit
+Date: 5/7/25 : left off at scaling X_TRAIN features before doing feature selection using SelectFromModel...make sure to use RMSE scorer during model.fit
