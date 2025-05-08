@@ -134,3 +134,7 @@ defense_success_rate_run - Proportion of plays with positive expected points all
 - identify correlations between points score and allowed with wins.
   - using EPA and WPA as a weighted coefficient with other features
   - using points scored/allowed as a weighted coefficient with other features
+
+
+NOTES:
+Date: 5/7/25 : left off at scaling X_TRAIN before doing feature selection using SelectFromModel...make sure to use RMSE scorer during model.fit
