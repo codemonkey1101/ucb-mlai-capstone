@@ -141,7 +141,7 @@ When comparing the following models the best model use the DecisionTreeClassifie
 - training score: 0.960938
 - test score: 0.921875
 - rmse: 0.241812
-- test cm: [[36, 0], [5, 23]]
+- test confusion matrix: [[36, 0], [5, 23]]
 - feature count: 54
 
 It should be noted that no suggested feature selection from the permutation importance results was implemented in this model.
@@ -156,6 +156,6 @@ feature count                                                 5
 train score                                            0.964844
 test score                                             0.921875
 rmse                                                   0.261196
-test cm                                      [[36, 0], [5, 23]]
+test confusion matrix:                                 [[36, 0], [5, 23]]
 fit time (seconds)                                     0.016818
 
