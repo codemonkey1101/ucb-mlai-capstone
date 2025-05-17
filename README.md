@@ -126,15 +126,35 @@ defense_success_rate_run - Proportion of plays with positive expected points all
 - NOTE:  The EPA variables are advanced NFL statistics, conveying how much value a team is adding over the average team in a given situation. It’s on a points scale instead of the typically used yards scale, because not all yards are created equal in American football (10 yard gain on 3rd and 15 is much less valuable than a 2 yard gain on 4th and 1). For offensive stats the higher the EPA the better, but for defensive stats the lower (more negative) the EPA the better. The WPA variables are similar except they are measuring play value in terms of win probability.
 
 ### Approach
-- determin best features for predicting points scored
-- determin best features for predicting points allowed
-- associate previous results with cost per position
-- identify strong teams per division by evaluating EPA and WPA to predict "wins" and "points scored"/"allowed"
-- see if there is a correlation with division strength and wins where division strength is measured by how many teams in that division have winning records where the tie breaker is playoff apearances
-- identify correlations between points score and allowed with wins.
-  - using EPA and WPA as a weighted coefficient with other features
-  - using points scored/allowed as a weighted coefficient with other features
+- created baseline for 4 classifier model types: KNN, DecisionTree, SVC and RandomForest.
+- indentified best feature set using permutation importance and calculation CCP-Alpha.
+- all models were trained to predict the MadePlayoffs feature where 1 = True and 0 = False using all available features accept for feature associated with COST.
+- The final comparison was based on root mean squared error (RMSE) and accuracy, where the best models were compared based on their predictions.  This was shown in a confusion matrix.
 
+### Results:
+When comparing the following models the best model use the DecisionTreeClassifier and had the following configuration: 
+- hyper-params:{}
+- ccp-alpha: 0.011719
+- impurities: 0.070343
+- nodes: 9
+- depth: 4
+- training score: 0.960938
+- test score: 0.921875
+- rmse: 0.241812
+- feature count: 54
 
-NOTES:
-Date: 5/7/25 : left off at scaling X_TRAIN features before doing feature selection using SelectFromModel...make sure to use RMSE scorer during model.fit
+It should be noted that no suggesting from permutation importance/feature selection was implemented in this model.
+
+With that said, a close runner up also used the DecisionTreeClassifier model type.  The differentiator was the error which was slighlty higher probably due to the use of less features.
+Here the suggested feature set from permutation importance was implemented where the model type used was also a DecisionTreeClassifier.
+
+model                                                      dt-c
+best params           {'dt-c__ccp_alpha': 0.007283958773784356}
+perm-imp model                                             dt-c
+feature count                                                 5
+train score                                            0.964844
+test score                                             0.921875
+rmse                                                   0.261196
+test cm                                      [[36, 0], [5, 23]]
+fit time (seconds)                                     0.016818
+
