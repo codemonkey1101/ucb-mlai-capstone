@@ -46,12 +46,6 @@ NOTE: The cost of special-teams is merged into offense and defense.
 
 #### Target classes (categorical)
 MadePlayoffs - target classifier that defines whether a team made it to the playoffs in the season for that 'Year' (derived from NFL_team_playoff_perc_win_data.csv)
-wins - number of wins during a regular season per team.
-losses - number losses during a regular season per team.
-ties - number of ties during a regular season per team
-points_scored - Total number of points scored by the team
-points_allowed - Total number of points allowed by the team
-score_differential - (points scored - points allowed)
 
 #### Features (numeric)
 Year - the year the season was played.
@@ -70,6 +64,14 @@ LB_COST - amount of money salaried for linebackers
 S_COST - amount of money salaried for safeties (free and strong)
 CB_COST - amount of money salaried for cornerbacks
 Defense_COST - amount of money salaried for all players on defense including special teams
+
+##### Basic statistics
+wins - number of wins during a regular season per team.
+losses - number losses during a regular season per team.
+ties - number of ties during a regular season per team
+points_scored - Total number of points scored by the team
+points_allowed - Total number of points allowed by the team
+score_differential - (points scored - points allowed)
 
 ##### Offensive Statistics per team and year
 offense_completion_percentage - Passing completion percentage for offense
