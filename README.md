@@ -141,9 +141,10 @@ When comparing the following models the best model use the DecisionTreeClassifie
 - training score: 0.960938
 - test score: 0.921875
 - rmse: 0.241812
+- test cm: [[36, 0], [5, 23]]
 - feature count: 54
 
-It should be noted that no suggesting from permutation importance/feature selection was implemented in this model.
+It should be noted that no suggested feature selection from the permutation importance results was implemented in this model.
 
 With that said, a close runner up also used the DecisionTreeClassifier model type.  The differentiator was the error which was slighlty higher probably due to the use of less features.
 Here the suggested feature set from permutation importance was implemented where the model type used was also a DecisionTreeClassifier.
