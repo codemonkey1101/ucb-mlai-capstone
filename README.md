@@ -127,9 +127,9 @@ defense_success_rate_run - Proportion of plays with positive expected points all
 
 ### Approach
 - created baseline for 4 classifier model types: KNN, DecisionTree, SVC and RandomForest.
-- indentified best feature set using permutation importance and calculation CCP-Alpha.
-- all models were trained to predict the MadePlayoffs feature where 1 = True and 0 = False using all available features accept for feature associated with COST.
-- The final comparison was based on root mean squared error (RMSE) and accuracy, where the best models were compared based on their predictions.  This was shown in a confusion matrix.
+- indentified best feature set using permutation importance and the calculation of CCP-Alpha for the DecisionTree and RandomForsest classifiers.
+- all models were trained to predict the MadePlayoffs feature where 1 = True and 0 = False.  The training data used all available features accept for feature associated with COST.
+- The final comparison was based on root mean squared error (RMSE) and accuracy, where the best models were tie breakers were based on their predictions.  This was determined using a confusion matrix.
 
 ### Results:
 When comparing the following models the best model use the DecisionTreeClassifier and had the following configuration: 
