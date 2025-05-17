@@ -3,7 +3,7 @@ UC Berkeley ML-AI Capstone project
 
 ## Problem:
 
-Looking to answer the question of what is the best approach to be able to predict when an NFL football team is going to make the playoffs based on there players and team statistics.
+Looking to answer the question of what is the best approach to be able to predict when an NFL football team is going to make the playoffs based on the team player and team statistics.
 
 
 ## Data:
