@@ -50,78 +50,78 @@ This was used intially as an index for filtering the dataset into training and t
 - Team - (String) name and city of NFL football team
 
 #### Cost per team, per year and per position in dollars ($)
-QB_COST - amount of money salaried for quarterbacks
-RB_COST - amount of money salaried for runningbacks
-WR_COST - amount of money salaried for wide receivers
-TE_COST - amount of money salaried for tightends
-OL_COST - amount of money salaried for offensive Lineman
-Offense_COST - amount of money salaried for all players on offense including special teams
-IDL_COST - amount of money salaried for inside defensive lineman
-EDGE_COST - amount of money salaried for edge rushers
-LB_COST - amount of money salaried for linebackers
-S_COST - amount of money salaried for safeties (free and strong)
-CB_COST - amount of money salaried for cornerbacks
-Defense_COST - amount of money salaried for all players on defense including special teams
+- QB_COST - amount of money salaried for quarterbacks
+- RB_COST - amount of money salaried for runningbacks
+- WR_COST - amount of money salaried for wide receivers
+- TE_COST - amount of money salaried for tightends
+- OL_COST - amount of money salaried for offensive Lineman
+- Offense_COST - amount of money salaried for all players on offense including special teams
+- IDL_COST - amount of money salaried for inside defensive lineman
+- EDGE_COST - amount of money salaried for edge rushers
+- LB_COST - amount of money salaried for linebackers
+- S_COST - amount of money salaried for safeties (free and strong)
+- CB_COST - amount of money salaried for cornerbacks
+- Defense_COST - amount of money salaried for all players on defense including special teams
 
 #### Basic statistics
-wins - number of wins during a regular season per team.
-losses - number losses during a regular season per team.
-ties - number of ties during a regular season per team
-points_scored - Total number of points scored by the team
-points_allowed - Total number of points allowed by the team
-score_differential - (points scored - points allowed)
+- wins - number of wins during a regular season per team.
+- losses - number losses during a regular season per team.
+- ties - number of ties during a regular season per team
+- points_scored - Total number of points scored by the team
+- points_allowed - Total number of points allowed by the team
+- score_differential - (points scored - points allowed)
 
 #### Offensive Statistics per team and year
-offense_completion_percentage - Passing completion percentage for offense
-offense_total_yards_gained_pass - Total number of yards gained on offense per play by play type pass
-offense_total_yards_gained_run - Total number of yards gained on offense per play by play type run
-offense_ave_yards_gained_pass - Average number of yards gained on offense per play by play type pass
-offense_ave_yards_gained_run - Average number of yards gained on offense per play by play type run
-offense_total_air_yards - Total number of air yards gained on offense where air yards correspond to perpendicular yards traveled from the line of scrimmage to location of catch for passing plays
-offense_ave_air_yards - Average number of air yards gained on offense per passing play
-offense_total_yac - Total number of yards after catch gained on offense
-offense_ave_yac - Average number of yards after catch gained on offense per passing play
-offense_n_plays_pass - Total number of plays by the team on offense by play type pass
-offense_n_plays_run - Total number of plays by the team on offense by play type run
-offense_n_interceptions - Total number of interceptions thrown by offense
-offense_n_fumbles_lost_pass - Total number of fumbles lost by offense by play type pass
-offense_n_fumbles_lost_run - Total number of fumbles lost by offense by play type run
-offense_total_epa_pass - Total expected points added by offense by play type pass
-offense_total_epa_run - Total expected points added by offense by play type run
-offense_ave_epa_pass - Average expected points added by offense per play by play type pass
-offense_ave_epa_run - Average expected points added by offense per play by play type run
-offense_total_wpa_pass - Total win probability added by offense by play type pass
-offense_total_wpa_run - Total win probability added by offense by play type run
-offense_ave_wpa_pass - Average win probability added by offense per play by play type pass
-offense_ave_wpa_run - Average win probability added by offense per play by play type run
-offense_success_rate_pass - Proportion of plays with positive expected points added on offense by play type pass
-offense_success_rate_run - Proportion of plays with positive expected points added on offense by play type run
+- offense_completion_percentage - Passing completion percentage for offense
+- offense_total_yards_gained_pass - Total number of yards gained on offense per play by play type pass
+- offense_total_yards_gained_run - Total number of yards gained on offense per play by play type run
+- offense_ave_yards_gained_pass - Average number of yards gained on offense per play by play type pass
+- offense_ave_yards_gained_run - Average number of yards gained on offense per play by play type run
+- offense_total_air_yards - Total number of air yards gained on offense where air yards correspond to perpendicular yards traveled from the line of scrimmage to location of catch for passing plays
+- offense_ave_air_yards - Average number of air yards gained on offense per passing play
+- offense_total_yac - Total number of yards after catch gained on offense
+- offense_ave_yac - Average number of yards after catch gained on offense per passing play
+- offense_n_plays_pass - Total number of plays by the team on offense by play type pass
+- offense_n_plays_run - Total number of plays by the team on offense by play type run
+- offense_n_interceptions - Total number of interceptions thrown by offense
+- offense_n_fumbles_lost_pass - Total number of fumbles lost by offense by play type pass
+- offense_n_fumbles_lost_run - Total number of fumbles lost by offense by play type run
+- offense_total_epa_pass - Total expected points added by offense by play type pass
+- offense_total_epa_run - Total expected points added by offense by play type run
+- offense_ave_epa_pass - Average expected points added by offense per play by play type pass
+- offense_ave_epa_run - Average expected points added by offense per play by play type run
+- offense_total_wpa_pass - Total win probability added by offense by play type pass
+- offense_total_wpa_run - Total win probability added by offense by play type run
+- offense_ave_wpa_pass - Average win probability added by offense per play by play type pass
+- offense_ave_wpa_run - Average win probability added by offense per play by play type run
+- offense_success_rate_pass - Proportion of plays with positive expected points added on offense by play type pass
+- offense_success_rate_run - Proportion of plays with positive expected points added on offense by play type run
 
 #### Defensive Statistics per team and year
-defense_completion_percentage - Passing completion percentage against by defense
-defense_total_yards_gained_pass - Total number of yards allowed by defense per play by play type pass
-defense_total_yards_gained_run - Total number of yards allowed by defense per play by play type run
-defense_ave_yards_gained_pass - Average number of yards allowed by defense per play by play type pass
-defense_ave_yards_gained_run - Average number of yards allowed by defense per play by play type run
-defense_total_air_yards - Total number of air yards allowed by defense, where air yards correspond to perpendicular yards traveled from the line of scrimmage to location of catch for passing plays
-defense_ave_air_yards - Average number of air yards allowed by defense per passing play
-defense_total_yac - Total number of yards after catch allowed by defense
-defense_ave_yac - Average number of yards after catch by defense per passing play
-defense_n_plays_pass - Total number of plays by the team against by defense by play type pass
-defense_n_plays_run - Total number of plays by the team against by defense by play type run
-defense_n_interceptions - Total number of interceptions caught by defense
-defense_n_fumbles_lost_pass - Total number of fumbles forced by defense by play type pass
-defense_n_fumbles_lost_run - Total number of fumbles forced by defense by play type run
-defense_total_epa_pass - Total expected points allowed by defense by play type pass
-defense_total_epa_run - Total expected points allowed by defense by play type run
-defense_ave_epa_pass - Average expected points allowed by defense per play by play type pass
-defense_ave_epa_run - Average expected points allowed by defense per play by play type run
-defense_total_wpa_pass - Total win probability allowed by defense by play type pass
-defense_total_wpa_run - Total win probability allowed by defense by play type run
-defense_ave_wpa_pass - Average win probability allowed by defense per play by play type pass
-defense_ave_wpa_run - Average win probability allowed by defense per play by play type run
-defense_success_rate_pass - Proportion of plays with positive expected points allowed by defense by play type pass
-defense_success_rate_run - Proportion of plays with positive expected points allowed by defense by play type run
+- defense_completion_percentage - Passing completion percentage against by defense
+- defense_total_yards_gained_pass - Total number of yards allowed by defense per play by play type pass
+- defense_total_yards_gained_run - Total number of yards allowed by defense per play by play type run
+- defense_ave_yards_gained_pass - Average number of yards allowed by defense per play by play type pass
+- defense_ave_yards_gained_run - Average number of yards allowed by defense per play by play type run
+- defense_total_air_yards - Total number of air yards allowed by defense, where air yards correspond to perpendicular yards traveled from the line of scrimmage to location of catch for passing plays
+- defense_ave_air_yards - Average number of air yards allowed by defense per passing play
+- defense_total_yac - Total number of yards after catch allowed by defense
+- defense_ave_yac - Average number of yards after catch by defense per passing play
+- defense_n_plays_pass - Total number of plays by the team against by defense by play type pass
+- defense_n_plays_run - Total number of plays by the team against by defense by play type run
+- defense_n_interceptions - Total number of interceptions caught by defense
+- defense_n_fumbles_lost_pass - Total number of fumbles forced by defense by play type pass
+- defense_n_fumbles_lost_run - Total number of fumbles forced by defense by play type run
+- defense_total_epa_pass - Total expected points allowed by defense by play type pass
+- defense_total_epa_run - Total expected points allowed by defense by play type run
+- defense_ave_epa_pass - Average expected points allowed by defense per play by play type pass
+- defense_ave_epa_run - Average expected points allowed by defense per play by play type run
+- defense_total_wpa_pass - Total win probability allowed by defense by play type pass
+- defense_total_wpa_run - Total win probability allowed by defense by play type run
+- defense_ave_wpa_pass - Average win probability allowed by defense per play by play type pass
+- defense_ave_wpa_run - Average win probability allowed by defense per play by play type run
+- defense_success_rate_pass - Proportion of plays with positive expected points allowed by defense by play type pass
+- defense_success_rate_run - Proportion of plays with positive expected points allowed by defense by play type run
 
 - NOTE:  The EPA variables are advanced NFL statistics, conveying how much value a team is adding over the average team in a given situation. It’s on a points scale instead of the typically used yards scale, because not all yards are created equal in American football (10 yard gain on 3rd and 15 is much less valuable than a 2 yard gain on 4th and 1). For offensive stats the higher the EPA the better, but for defensive stats the lower (more negative) the EPA the better. The WPA variables are similar except they are measuring play value in terms of win probability.
 
