@@ -224,4 +224,16 @@ With that said, a close runner up also used the DecisionTreeClassifier model typ
 
 ###### Notes On Other Models:
 The Random-Forest classifier's performance was comperable to DescisionTree with an accuracy around 87% - 89% and an error equivalent to what was produced by its counter part.
-Furthermore, the KNN and SVC classifiers did not perform nearly as well and as a result are not mentioned.
+Furthermore, the KNN and SVC classifiers did not perform nearly as well.  The only attempt that was worth mentioning was using SVC with an accuracy of 86% and a very low error.  However, the predictions shown in the confusion matrix are not as compelling.  Maybe if some more data could be aquired the results would get better.
+
+model                                                               svc
+best params                {'C': 0.1, 'gamma': 0.1, 'kernel': 'linear'}
+perm-imp model                                                     dt-c
+feature count                                                         5
+train score                                                    0.933594
+test score                                                        0.875
+rmse                                                            0.22771
+test confusion matrix:                               [[36, 0], [8, 20]]
+fit time (seconds)                                             2.073034
+
+![Alt text](images/svc_best_model_confusion_matrix.png)
