@@ -197,7 +197,7 @@ nodes|9
 depth|4
 training score|0.960938
 test score|0.921875
-rmse|0.241812
+error (rmse)|0.241812
 test confusion matrix|[[36, 0], [5, 23]]
 perm-imp model|decision tree classifier
 feature count|54
@@ -218,7 +218,7 @@ nodes|13
 depth|4
 train score|0.964844
 test score|0.921875
-rmse|0.261196
+error (rmse)|0.261196
 test confusion matrix|[[36, 0], [5, 23]]
 perm-imp model|decision tree classifier
 feature count|5
@@ -238,7 +238,7 @@ perm-imp model|decision Tree Classifier
 feature count|5
 train score|0.933594
 test score|0.875
-rmse|0.22771
+error (rmse)|0.22771
 test confusion matrix|[[36, 0], [8, 20]]
 fit time (seconds)|2.073034
 
