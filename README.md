@@ -209,18 +209,20 @@ It should be noted that no suggested feature selection from the permutation impo
 
 With that said, a close runner up also used the DecisionTreeClassifier model type.  The differentiator was the error which was slighlty higher.  It would be interesting to see if the difference in the number of features was the result of this occurance.  In this model, the suggested feature sets from permutation importance was implemented where, the model type used to implement feature selection was also a DecisionTreeClassifier.
 
-- model                                  decision tree classifier
-- ccp-alpha                                  0.007283958773784356
-- impurities:                                            0.051089
-- nodes:                                                       13
-- depth:                                                        4
-- train score:                                           0.964844
-- test score:                                            0.921875
-- rmse:                                                  0.261196
-- test confusion matrix:                       [[36, 0], [5, 23]]
-- perm-imp model:                        decision tree classifier
-- feature count:                                                5
-- fit time (seconds)                                     0.016818
+Attribute|metric
+---|---|
+model|decision tree classifier
+ccp-alpha|0.007283958773784356
+impurities|0.051089
+nodes|13
+depth|4
+train score|0.964844
+test score|0.921875
+rmse|0.261196
+test confusion matrix|[[36, 0], [5, 23]]
+perm-imp model|decision tree classifier
+feature count|5
+fit time (seconds)|0.016818
 
 ![Alt text](images/2nd_best_model_confusion_matrix.png)
 
@@ -228,14 +230,16 @@ With that said, a close runner up also used the DecisionTreeClassifier model typ
 The Random-Forest classifier's performance was comperable to DescisionTree with an accuracy around 87% - 89% and an error equivalent to what was produced by its counter part.
 Furthermore, the KNN and SVC classifiers did not perform nearly as well.  The only attempt that was worth mentioning was using SVC which achieved an accuracy of approximately 88% and a very low error.  However, the predictions shown in the confusion matrix are not as compelling.  Maybe if some more data could be aquired the results would get better.  Also, when the features were increased the accuracy decreased and the error (RMSE) increased.
 
-model                                                               svc
-best params                {'C': 0.1, 'gamma': 0.1, 'kernel': 'linear'}
-perm-imp model                                                     dt-c
-feature count                                                         5
-train score                                                    0.933594
-test score                                                        0.875
-rmse                                                            0.22771
-test confusion matrix:                               [[36, 0], [8, 20]]
-fit time (seconds)                                             2.073034
+Attribute|metric
+---|---|
+model|svc
+best params|{'C': 0.1, 'gamma': 0.1, 'kernel': 'linear'}
+perm-imp model|decision Tree Classifier
+feature count|5
+train score|0.933594
+test score|0.875
+rmse|0.22771
+test confusion matrix|[[36, 0], [8, 20]]
+fit time (seconds)|2.073034
 
 ![Alt text](images/svc_best_model_confusion_matrix.png)
