@@ -39,7 +39,9 @@ The following correlation matrix was used to identify what correlations exists b
 Note: this correlation matrix was generated using ('pearson') standard correlation coefficients for measuring linear relationships
 
 ### Target classes (categorical)
-MadePlayoffs - target classifier that defines whether a team made it to the playoffs in the season for that 'Year' (derived from NFL_team_playoff_perc_win_data.csv)
+- MadePlayoffs - target classifier that defines whether a team made it to the playoffs in the season for that 'Year' (derived from NFL_team_playoff_perc_win_data.csv)
+
+Note: the class target feature is imbalanced with regards to fewer teams making it to the playoffs vs teams that did not.
 
 ### Input Features 
 This is comprised of the dat the will eventually be used to either manipulate the final data sets and/or train the models being evaluated.
