@@ -188,18 +188,20 @@ The evaluated configuration options for each of the models is listed below:
 
 ##### Results:
 When comparing the following models the best model use the DecisionTreeClassifier with 92% accuracy.  The configuration of the mode and the results with regards to score and error are as follows:
-- model:                decision tree classifier
-- ccp-alpha:                            0.011719
-- impurities:                           0.070343
-- nodes:                                       9
-- depth:                                       4
-- training score:                       0.960938
-- test score:                           0.921875
-- rmse:                                 0.241812
-- test confusion matrix:      [[36, 0], [5, 23]]
-- perm-imp model        decision tree classifier
-- feature count:                              54
-- fit time (seconds)                    2.225046
+Attribute|metric
+---|---|
+model|decision tree classifier
+ccp-alpha|0.011719
+impurities|0.070343
+nodes|9
+depth|4
+training score|0.960938
+test score|0.921875
+rmse|0.241812
+test confusion matrix|[[36, 0], [5, 23]]
+perm-imp model|decision tree classifier
+feature count|54
+fit time (seconds)|2.225046
 
 ![Alt text](images/best_model_confusion_matrix.png)
 
