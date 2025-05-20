@@ -41,10 +41,10 @@ Note: this correlation matrix was generated using ('pearson') standard correlati
 ### Target classes (categorical)
 - MadePlayoffs - target classifier that defines whether a team made it to the playoffs in the season for that 'Year' (derived from NFL_team_playoff_perc_win_data.csv)
 
-Note: the class target feature is imbalanced with regards to fewer teams making it to the playoffs vs teams that did not.
+Note: the class/target feature is imbalanced with regards to fewer teams making it to the playoffs vs teams that did not.
 
 ### Input Features 
-This is comprised of the dat the will eventually be used to either manipulate the final data sets and/or train the models being evaluated.
+This is comprised of the data that will eventually be used to either generate the final data sets and/or train the models being evaluated.
 
 #### Index use only
 This was used intially as an index for filtering the dataset into training and test data
@@ -142,7 +142,7 @@ Once this was completed the final step for preparing the data was done in the py
 Note: All data was encoded using the scikit.learn StandardScaler API.
 
 ## Modeling:
-The models that were evaluated were as follows:
+The models that were evaluated are as follows:
   - K-Nearest Neighbor Classifier (KNN-C)
   - Decision-Tree Classifier (DT-C)
   - Support Vector Machines (SVC)
@@ -152,7 +152,7 @@ Note: Due to the nature of the data and the number of features the previously me
 
 ## Model Evaluation:
 ### Approach
-#### Created baseline for 4 classifier model types: 
+#### Created baseline for the 4 classifier model types: 
   - K-Nearest Neighbor Classifier (KNN-C)
   - Decision-Tree Classifier (DT-C)
   - Support Vector Machines (SVC)
@@ -187,7 +187,7 @@ The evaluated configuration options for each of the models is listed below:
 
 
 ##### Results:
-When comparing the following models the best model use the DecisionTreeClassifier with 92% accuracy.  The configuration of the mode and the results with regards to score and error are as follows:
+When comparing the following models the best model used the DecisionTreeClassifier where the accuracy produced was 92%.  The configuration of the model and the results with regards to score and error are as follows:
 Attribute|metric
 ---|---|
 model|decision tree classifier
