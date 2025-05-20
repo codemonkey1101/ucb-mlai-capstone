@@ -7,7 +7,7 @@ This application looking to answer the question of "what is the best approach to
 [OPTIONAL]: Once answered this would encourage the question of what is the least amount of money an NFL football team needs to spend to make it to the playoffs.
 
 ## Model Outcomes or Predictions:
-The problem is one of classification where the application is trying to determine from a supervised learning perspective whether a team shall or shall not make the playoffs based the the abilities of the team.  The basis of the problem is a statistical analysis that measures the ability of the players on a team as well as the abilities of each team.  This in turn shall to determine whether a team can produce enough win during a single season to be able to gain entry into the post season (playoffs).
+The problem is one of classification where the application is trying to determine from a supervised learning perspective whether a team shall or shall not make the playoffs based the the abilities of the individual players and the team as a whole.  The basis of the problem is a statistical analysis that measures the ability of each player position on a team as well as the abilities of each teams performance.  This in turn determines whether a team can produce enough wins during a single season to be able to gain entry into the post season (playoffs).
 
 ## Data Aquisition:
 The data being used comes from three sources listed below.
